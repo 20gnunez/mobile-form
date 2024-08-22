@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.symbol {
+    font-size: 50px;
+    color: rgba(245, 230, 255, 0.8) ;
+
+}
+
+.triangle {
+    font-size: 24px;
+    margin-top: 9px;
+    color: rgba(245, 230, 255, 0.8) ;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #5511f6;
+}
+
+.nav-bar {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6317fd;
+    color: white;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-left div:first-of-type {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-right div:last-of-type {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
