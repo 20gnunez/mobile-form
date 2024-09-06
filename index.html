@@ -31,9 +31,54 @@
                     <i id="extra" class="fa-solid fa-ellipsis-vertical"></i>
                 </div>
             </div>
-            
-
         </nav>
     </header>
+    <form>
+        <div class="name-info">
+            <label for="name"><i class="fa-solid fa-user"></i></label>
+            <input id="name" type="text" placeholder="Name">
+        </div>
+        <div class="phone-info">
+            <label for="phone"><i class="fa-solid fa-phone"></i></label>
+            <input type="number" id="phone" placeholder="Phone Number">
+            <select class="phone-label" name="label" id="label">
+                <option value="" disabled selected hidden>Label</option>
+                <option value="home">Home</option>
+                <option value="cell">Cell</option>
+                <option value="work">Work</option>
+            </select> 
+        </div>
+        <div class="location">
+            <div>
+                <label for="address"><i class="fa-solid fa-location-dot"></i></label>
+                <input type="text" id="address" placeholder="Address">
+            </div>
+        </div>
+        <div class="city">
+            <label for="city"></label>
+            <input type="text" name="city" id="city" placeholder="City">
+        </div>
+        <div class="state-zip">
+            <select class="state-select" name="state" id="state">
+                <option value="" disabled selected hidden>State</option>
+                <option value="florida">Florida</option>
+                <option value="georgia">Georgia</option>
+                <option value="south-carolina">South Carolina</option>
+                <option value="north-carolina">North Carolina</option>
+                <option value="texas">Texas</option>
+                <option value="virginia">Virginia</option>
+            </select>
+            <label for="zip"></label>
+            <input type="number" id="zip" name="zip" placeholder="Zip">
+        </div>
+        <div class="email">
+            <label for="email"><i class="fa-solid fa-envelope"></i></label>
+            <input type="text" name="email" id="email" placeholder="Email">
+        </div>
+        <div class="birthday">
+            <label for="birthday"><i class="fa-solid fa-cake-candles"></i></label>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+    </form>
 </body>
 </html>

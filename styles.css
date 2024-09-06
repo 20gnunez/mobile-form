@@ -8,8 +8,8 @@
     color: #f5e6ffcc;
     font-size: 20px;
     margin-right: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .top-bar {
@@ -58,4 +58,103 @@
 
 .fa-magnifying-glass {
     margin-right: 25px;
+}
+
+.name-info, .phone-info, .location, .email {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+.fa-user, .fa-phone, .fa-location-dot, .fa-envelope, .fa-cake-candles {
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgba(55, 55, 55, 0.744);
+}
+
+#name, #phone, #address, #city, #zip, #email, #birthday{
+    margin-left: 50px;
+    font-size: 25px;
+    background-color: rgba(220, 220, 220, 0.6);
+    padding: 15px 15px;
+    border: none;
+    border-bottom: black solid 1px;
+}
+
+#name {
+    width: 330px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+
+#phone {
+    margin-left: 46px;
+    width: 200px;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 7px;
+}
+
+.phone-label, .state-select {
+    padding: 15px 10px;
+    margin-left: 20px;
+    height: 60px;
+    border: black solid 1px;
+    border-radius: 7px;
+    font-size: 25px;
+    color: rgb(115, 113, 113);
+}
+
+#address {
+    width: 330px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+#city {
+    margin-top: 40px;
+    margin-left: 95px;
+    width: 330px;
+    background-color: white;
+    border-radius: 7px;
+    border: black solid 1px;
+}
+
+.state-select {
+    margin-left: 95px;
+    width: 170px;
+    margin-top: 40px;
+    border: none;
+    background-color: rgba(220, 220, 220, 0.6);
+    border-bottom: black solid 1px;
+    border-radius: 0px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-right: 16px solid transparent;
+}
+
+#zip {
+    width: 140px;
+    margin-left: 15px;
+    margin-top: 40px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+#email {
+    margin-left: 45px;
+    border: black solid 1px;
+    border-radius: 7px;
+    background-color: white;
+    width: 330px;
+}
+
+#birthday {
+    margin-top: 40px;
+    margin-left: 45px;
+    width: 330px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    color: rgb(115, 113, 113);
+
 }
